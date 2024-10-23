@@ -1,0 +1,45 @@
+/* src/components/ProductDetail.css */
+
+.product-detail-container {
+  margin-bottom: 50px;
+}
+
+.custom-carousel-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-img {
+  object-fit: contain; /* Cambia cover por contain */
+  height: 600px; /* Ajusta la altura según sea necesario */
+
+}
+.img {  width: 100%;}
+.nav-buttons .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button.lightbox-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.styled-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}

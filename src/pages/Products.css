@@ -1,0 +1,16 @@
+.btn-outline-secondary {
+    color: black !important;
+    border-color: black !important;
+    background-color: transparent !important;
+    margin: 5px !important;
+  }
+  
+  .btn-outline-secondary:hover {
+    color: white !important;
+    background-color: black !important;
+  }
+  
+  .clear-filter-btn {
+    font-weight: bold;
+  }
+  p.card-text {line-height: 1.1;}

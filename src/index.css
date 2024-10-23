@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Asegúrate de que el navbar tenga un z-index adecuado */
+.navbar {
+  z-index: 1000;
+}
+
+/* Opcionalmente, puedes ajustar el z-index de otros elementos */
+.App {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+}
+
+nav .navbar-brand, nav .nav-link {
+  color: white !important;
+}
+
+nav .nav-link:hover {
+  color: #ddd !important;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Home page styles */
+.home-container {
+  margin-bottom: 50px; /* Adds space between Home content and Footer */
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Contact page styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px 0;
+}
+
+form input, form textarea, form button {
+  margin-bottom: 15px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+
+.lightbox-close {display: none;}
+
